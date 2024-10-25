@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EAE6BA5097A29E0921781ED /* Pods_Github_Tanding_Rapos_Viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C713C41AC39D98596EF7C47 /* Pods_Github_Tanding_Rapos_Viper.framework */; };
+		913B80FE2CCA756A00E7EF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B80FD2CCA756A00E7EF54 /* AppDelegate.swift */; };
+		913B81022CCA756A00E7EF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81012CCA756A00E7EF54 /* ViewController.swift */; };
+		913B81052CCA756A00E7EF54 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 913B81042CCA756A00E7EF54 /* Base */; };
+		913B81082CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 913B81062CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodeld */; };
+		913B810A2CCA756B00E7EF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913B81092CCA756B00E7EF54 /* Assets.xcassets */; };
+		913B810D2CCA756B00E7EF54 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 913B810C2CCA756B00E7EF54 /* Base */; };
+		913B81162CCA768600E7EF54 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81152CCA768600E7EF54 /* AppDependencies.swift */; };
+		913B81282CCA81B900E7EF54 /* TrandingReposWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81272CCA81B900E7EF54 /* TrandingReposWireframe.swift */; };
+		913B812A2CCA81E900E7EF54 /* TrandingReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81292CCA81E900E7EF54 /* TrandingReposViewController.swift */; };
+		913B812C2CCA824800E7EF54 /* TrandingReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B812B2CCA824800E7EF54 /* TrandingReposPresenter.swift */; };
+		913B81312CCA850500E7EF54 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81302CCA850500E7EF54 /* RootWireframe.swift */; };
+		913B81332CCB652F00E7EF54 /* TrandingReposInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81322CCB652F00E7EF54 /* TrandingReposInteractor.swift */; };
+		913B81352CCB656F00E7EF54 /* TrandingReposInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81342CCB656F00E7EF54 /* TrandingReposInteractorIO.swift */; };
+		913B81372CCB781900E7EF54 /* TrandingReposManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81362CCB781900E7EF54 /* TrandingReposManager.swift */; };
+		913B81392CCB9AB600E7EF54 /* TrandingReposCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B81382CCB9AB600E7EF54 /* TrandingReposCell.swift */; };
+		913B813B2CCB9B0200E7EF54 /* TrandingReposModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B813A2CCB9B0200E7EF54 /* TrandingReposModel.swift */; };
+		913B813D2CCBA0B000E7EF54 /* TrandingReposModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B813C2CCBA0B000E7EF54 /* TrandingReposModuleInterface.swift */; };
+		913B813F2CCBA2C700E7EF54 /* TrandingReposViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B813E2CCBA2C700E7EF54 /* TrandingReposViewInterface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024D6D0D268A0A22ABFA720A /* Pods-Github-Tanding-Rapos-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-Tanding-Rapos-Viper.debug.xcconfig"; path = "Target Support Files/Pods-Github-Tanding-Rapos-Viper/Pods-Github-Tanding-Rapos-Viper.debug.xcconfig"; sourceTree = "<group>"; };
+		6C713C41AC39D98596EF7C47 /* Pods_Github_Tanding_Rapos_Viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Tanding_Rapos_Viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		913B80FA2CCA756A00E7EF54 /* Github-Tanding-Repos-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github-Tanding-Repos-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913B80FD2CCA756A00E7EF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		913B81012CCA756A00E7EF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		913B81042CCA756A00E7EF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		913B81072CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Github_Tanding_Rapos_Viper.xcdatamodel; sourceTree = "<group>"; };
+		913B81092CCA756B00E7EF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		913B810C2CCA756B00E7EF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		913B810E2CCA756B00E7EF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913B81152CCA768600E7EF54 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		913B81272CCA81B900E7EF54 /* TrandingReposWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposWireframe.swift; sourceTree = "<group>"; };
+		913B81292CCA81E900E7EF54 /* TrandingReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposViewController.swift; sourceTree = "<group>"; };
+		913B812B2CCA824800E7EF54 /* TrandingReposPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposPresenter.swift; sourceTree = "<group>"; };
+		913B81302CCA850500E7EF54 /* RootWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		913B81322CCB652F00E7EF54 /* TrandingReposInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposInteractor.swift; sourceTree = "<group>"; };
+		913B81342CCB656F00E7EF54 /* TrandingReposInteractorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposInteractorIO.swift; sourceTree = "<group>"; };
+		913B81362CCB781900E7EF54 /* TrandingReposManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposManager.swift; sourceTree = "<group>"; };
+		913B81382CCB9AB600E7EF54 /* TrandingReposCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposCell.swift; sourceTree = "<group>"; };
+		913B813A2CCB9B0200E7EF54 /* TrandingReposModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposModel.swift; sourceTree = "<group>"; };
+		913B813C2CCBA0B000E7EF54 /* TrandingReposModuleInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposModuleInterface.swift; sourceTree = "<group>"; };
+		913B813E2CCBA2C700E7EF54 /* TrandingReposViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingReposViewInterface.swift; sourceTree = "<group>"; };
+		932A947F4B644438720069DD /* Pods-Github-Tanding-Rapos-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github-Tanding-Rapos-Viper.release.xcconfig"; path = "Target Support Files/Pods-Github-Tanding-Rapos-Viper/Pods-Github-Tanding-Rapos-Viper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913B80F72CCA756A00E7EF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAE6BA5097A29E0921781ED /* Pods_Github_Tanding_Rapos_Viper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321666B0A4AA09B00750F89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C713C41AC39D98596EF7C47 /* Pods_Github_Tanding_Rapos_Viper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A064AE819B2B19D0174A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				024D6D0D268A0A22ABFA720A /* Pods-Github-Tanding-Rapos-Viper.debug.xcconfig */,
+				932A947F4B644438720069DD /* Pods-Github-Tanding-Rapos-Viper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		913B80F12CCA756A00E7EF54 = {
+			isa = PBXGroup;
+			children = (
+				913B80FC2CCA756A00E7EF54 /* Github-Tanding-Repos-Viper */,
+				913B80FB2CCA756A00E7EF54 /* Products */,
+				73A064AE819B2B19D0174A54 /* Pods */,
+				321666B0A4AA09B00750F89B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		913B80FB2CCA756A00E7EF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913B80FA2CCA756A00E7EF54 /* Github-Tanding-Repos-Viper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913B80FC2CCA756A00E7EF54 /* Github-Tanding-Repos-Viper */ = {
+			isa = PBXGroup;
+			children = (
+				913B81172CCA76A800E7EF54 /* Classes */,
+				913B81142CCA765500E7EF54 /* Resources */,
+			);
+			path = "Github-Tanding-Repos-Viper";
+			sourceTree = "<group>";
+		};
+		913B81142CCA765500E7EF54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				913B81032CCA756A00E7EF54 /* Main.storyboard */,
+				913B81092CCA756B00E7EF54 /* Assets.xcassets */,
+				913B810B2CCA756B00E7EF54 /* LaunchScreen.storyboard */,
+				913B810E2CCA756B00E7EF54 /* Info.plist */,
+				913B81062CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		913B81172CCA76A800E7EF54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				913B812D2CCA844B00E7EF54 /* Common */,
+				913B811D2CCA7BE300E7EF54 /* Modules */,
+				913B80FD2CCA756A00E7EF54 /* AppDelegate.swift */,
+				913B81152CCA768600E7EF54 /* AppDependencies.swift */,
+				913B81012CCA756A00E7EF54 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		913B81192CCA7ACC00E7EF54 /* TrandingRepos */ = {
+			isa = PBXGroup;
+			children = (
+				913B81262CCA819300E7EF54 /* Application Login */,
+				913B811E2CCA819300E7EF54 /* Module Interface */,
+				913B81222CCA819300E7EF54 /* User Interface */,
+			);
+			path = TrandingRepos;
+			sourceTree = "<group>";
+		};
+		913B811D2CCA7BE300E7EF54 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				913B81192CCA7ACC00E7EF54 /* TrandingRepos */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		913B811E2CCA819300E7EF54 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				913B813C2CCBA0B000E7EF54 /* TrandingReposModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		913B811F2CCA819300E7EF54 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				913B812B2CCA824800E7EF54 /* TrandingReposPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		913B81202CCA819300E7EF54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				913B81292CCA81E900E7EF54 /* TrandingReposViewController.swift */,
+				913B813E2CCBA2C700E7EF54 /* TrandingReposViewInterface.swift */,
+				913B81382CCB9AB600E7EF54 /* TrandingReposCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		913B81212CCA819300E7EF54 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				913B81272CCA81B900E7EF54 /* TrandingReposWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		913B81222CCA819300E7EF54 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				913B811F2CCA819300E7EF54 /* Presenter */,
+				913B81202CCA819300E7EF54 /* View */,
+				913B81212CCA819300E7EF54 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		913B81232CCA819300E7EF54 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				913B81322CCB652F00E7EF54 /* TrandingReposInteractor.swift */,
+				913B81342CCB656F00E7EF54 /* TrandingReposInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		913B81242CCA819300E7EF54 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				913B81362CCB781900E7EF54 /* TrandingReposManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		913B81252CCA819300E7EF54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				913B813A2CCB9B0200E7EF54 /* TrandingReposModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		913B81262CCA819300E7EF54 /* Application Login */ = {
+			isa = PBXGroup;
+			children = (
+				913B81232CCA819300E7EF54 /* Interactor */,
+				913B81242CCA819300E7EF54 /* Manager */,
+				913B81252CCA819300E7EF54 /* Model */,
+			);
+			path = "Application Login";
+			sourceTree = "<group>";
+		};
+		913B812D2CCA844B00E7EF54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				913B812E2CCA84D600E7EF54 /* User Interface */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		913B812E2CCA84D600E7EF54 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				913B812F2CCA84E600E7EF54 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		913B812F2CCA84E600E7EF54 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				913B81302CCA850500E7EF54 /* RootWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913B80F92CCA756A00E7EF54 /* Github-Tanding-Repos-Viper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913B81112CCA756B00E7EF54 /* Build configuration list for PBXNativeTarget "Github-Tanding-Repos-Viper" */;
+			buildPhases = (
+				668695D39933E31BFBFC7985 /* [CP] Check Pods Manifest.lock */,
+				913B80F62CCA756A00E7EF54 /* Sources */,
+				913B80F72CCA756A00E7EF54 /* Frameworks */,
+				913B80F82CCA756A00E7EF54 /* Resources */,
+				916B3DC64C92AFB70EAAE6B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Github-Tanding-Repos-Viper";
+			productName = "Github-Tanding-Rapos-Viper";
+			productReference = 913B80FA2CCA756A00E7EF54 /* Github-Tanding-Repos-Viper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913B80F22CCA756A00E7EF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					913B80F92CCA756A00E7EF54 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 913B80F52CCA756A00E7EF54 /* Build configuration list for PBXProject "Github-Tanding-Repos-Viper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913B80F12CCA756A00E7EF54;
+			productRefGroup = 913B80FB2CCA756A00E7EF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913B80F92CCA756A00E7EF54 /* Github-Tanding-Repos-Viper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913B80F82CCA756A00E7EF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913B810A2CCA756B00E7EF54 /* Assets.xcassets in Resources */,
+				913B810D2CCA756B00E7EF54 /* Base in Resources */,
+				913B81052CCA756A00E7EF54 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		668695D39933E31BFBFC7985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Github-Tanding-Rapos-Viper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916B3DC64C92AFB70EAAE6B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Github-Tanding-Rapos-Viper/Pods-Github-Tanding-Rapos-Viper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Github-Tanding-Rapos-Viper/Pods-Github-Tanding-Rapos-Viper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Github-Tanding-Rapos-Viper/Pods-Github-Tanding-Rapos-Viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913B80F62CCA756A00E7EF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913B81022CCA756A00E7EF54 /* ViewController.swift in Sources */,
+				913B812A2CCA81E900E7EF54 /* TrandingReposViewController.swift in Sources */,
+				913B813D2CCBA0B000E7EF54 /* TrandingReposModuleInterface.swift in Sources */,
+				913B81312CCA850500E7EF54 /* RootWireframe.swift in Sources */,
+				913B81332CCB652F00E7EF54 /* TrandingReposInteractor.swift in Sources */,
+				913B813B2CCB9B0200E7EF54 /* TrandingReposModel.swift in Sources */,
+				913B813F2CCBA2C700E7EF54 /* TrandingReposViewInterface.swift in Sources */,
+				913B80FE2CCA756A00E7EF54 /* AppDelegate.swift in Sources */,
+				913B812C2CCA824800E7EF54 /* TrandingReposPresenter.swift in Sources */,
+				913B81162CCA768600E7EF54 /* AppDependencies.swift in Sources */,
+				913B81392CCB9AB600E7EF54 /* TrandingReposCell.swift in Sources */,
+				913B81372CCB781900E7EF54 /* TrandingReposManager.swift in Sources */,
+				913B81082CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodeld in Sources */,
+				913B81282CCA81B900E7EF54 /* TrandingReposWireframe.swift in Sources */,
+				913B81352CCB656F00E7EF54 /* TrandingReposInteractorIO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		913B81032CCA756A00E7EF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913B81042CCA756A00E7EF54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		913B810B2CCA756B00E7EF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913B810C2CCA756B00E7EF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913B810F2CCA756B00E7EF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		913B81102CCA756B00E7EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913B81122CCA756B00E7EF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024D6D0D268A0A22ABFA720A /* Pods-Github-Tanding-Rapos-Viper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NW597D9HK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Github-Tanding-Repos-Viper/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.entertainer.Github-Tanding-Rapos-Viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		913B81132CCA756B00E7EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932A947F4B644438720069DD /* Pods-Github-Tanding-Rapos-Viper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NW597D9HK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Github-Tanding-Repos-Viper/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.entertainer.Github-Tanding-Rapos-Viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913B80F52CCA756A00E7EF54 /* Build configuration list for PBXProject "Github-Tanding-Repos-Viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913B810F2CCA756B00E7EF54 /* Debug */,
+				913B81102CCA756B00E7EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913B81112CCA756B00E7EF54 /* Build configuration list for PBXNativeTarget "Github-Tanding-Repos-Viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913B81122CCA756B00E7EF54 /* Debug */,
+				913B81132CCA756B00E7EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		913B81062CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				913B81072CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodel */,
+			);
+			currentVersion = 913B81072CCA756A00E7EF54 /* Github_Tanding_Rapos_Viper.xcdatamodel */;
+			path = Github_Tanding_Rapos_Viper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 913B80F22CCA756A00E7EF54 /* Project object */;
+}
